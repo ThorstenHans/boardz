@@ -4,3 +4,6 @@
 [submodule "idsrv"]
 	path = idsrv
 	url = git@github.com:ThorstenHans/boardz-id.git
+[submodule "app"]
+	path = app
+	url = git@github.com:ThorstenHans/boardz-app.git
