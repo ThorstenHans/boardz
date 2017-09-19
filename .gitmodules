@@ -1,3 +1,6 @@
 [submodule "office"]
 	path = office
 	url = git@github.com:ThorstenHans/boardz-office.git
+[submodule "idsrv"]
+	path = idsrv
+	url = git@github.com:ThorstenHans/boardz-id.git
