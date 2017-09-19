@@ -7,3 +7,6 @@
 [submodule "app"]
 	path = app
 	url = git@github.com:ThorstenHans/boardz-app.git
+[submodule "api"]
+	path = api
+	url = git@github.com:ThorstenHans/boardz-api.git
