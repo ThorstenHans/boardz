@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build: ./app
+    ports:
+      - "8080:80"
+  api:
+    build: ./api
+    env_file:
+      - ./api/docker.env
+    ports:
+      - "8081:80"
+  id:
+    build: ./id
+    env_file:
+      - ./id/docker.env
+    ports:
+      - "8082:80"
